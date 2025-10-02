@@ -73,6 +73,29 @@ The app will be available at `http://localhost:5173`
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
+## Deployment
+
+### Cloudflare Pages
+
+The repository is configured for easy deployment to Cloudflare Pages:
+
+**Build Settings:**
+- **Build command:** `npm run build`
+- **Build output directory:** `dist`
+- **Root directory:** `/`
+
+**Environment Variables:**
+- Node version: `18` or higher (set in Cloudflare Pages settings if needed)
+
+**Steps:**
+1. Go to [Cloudflare Pages](https://pages.cloudflare.com/)
+2. Connect your GitHub account
+3. Select the `yna-portal` repository
+4. Use the build settings above
+5. Deploy!
+
+**GitHub Repository:** [https://github.com/BlakeB254/yna-portal](https://github.com/BlakeB254/yna-portal)
+
 ## Project Structure
 
 ```
